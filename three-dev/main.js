@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 
-let container, camera, scene, renderer, cube, innerTorus, outerTorus;
+let container, camera, scene, renderer, cube, innerTorus, outerTorus, controls;
 
 init();
 
